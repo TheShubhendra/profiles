@@ -23,7 +23,7 @@ class User:
             self.profileCrendential = data["profileCredential"]["experience"]
         except:
             pass
-        self.ContributingSpaceCount = data["numCanContributeTribes"]
+        self.contributingSpaceCount = data["numCanContributeTribes"]
         self.twitterProfileUrl = data["twitterProfileUrl"]
         self.answerViewsCount = data["allTimePublicAnswerViews"]
         self.contentViewsCount = data["allTimePublicContentViews"]
@@ -39,4 +39,7 @@ class User:
         self.followerCount = data["followerCount"]
 
     def __str__(self):
-        return self.firstName + self.lastName
+        text = ""
+        for i, j in vars(self).items():
+            text+=(i+": "+str(j)+"\n")
+        return text
