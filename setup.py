@@ -25,7 +25,7 @@ setup(
     keywords=[
         "social media",
         "quora",
-        ],
+    ],
     install_requires=requirements(),
     include_package_data=True,
     long_description=readme(),

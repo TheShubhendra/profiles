@@ -41,5 +41,5 @@ class User:
     def __str__(self):
         text = ""
         for i, j in vars(self).items():
-            text+=(i+": "+str(j)+"\n")
+            text += i + ": " + str(j) + "\n"
         return text
