@@ -14,7 +14,7 @@ def requirements():
 
 
 setup(
-    name="profiles",
+    name="pyprofiles",
     packages=find_packages(),
     version="0.0.1",
     license="MIT",
