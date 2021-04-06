@@ -5,9 +5,8 @@
 
 # Installation
 
-```bash
-    pip install pyprofiles
-```
+`pip install pyprofiles`
+
 # Usage
 
 ```python
